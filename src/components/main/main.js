@@ -1,11 +1,13 @@
 import React from 'react';
 
-export class Main extends React.Component {
+class Main extends React.Component {
   render() {
     return (
       <main>
-        <img alt="фото собачек." />
+        <img alt="фото собачек." src={require("../../images/main.jpg")}/>
       </main>
     );
   }
 }
+
+export default Main;

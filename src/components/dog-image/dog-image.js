@@ -9,5 +9,5 @@ class DogImage extends React.Component {
   }
 }
 
-export default DogImage
+export default DogImage;
  
